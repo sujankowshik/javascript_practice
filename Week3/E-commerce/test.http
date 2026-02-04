@@ -1,0 +1,25 @@
+POST http://localhost:3000/productapi/product
+Content-Type: application/json
+
+{
+    "name":"mobilephone","price":10000,"brand":"redmi"
+}
+
+###
+
+POST http://localhost:3000/userapi/user
+Content-Type: application/json
+
+{
+    "name":"vikas",
+    "email":"vikas@gmail.com",
+    "password":"",
+    "cart":[]
+}
+
+###
+PUT http://localhost:3000/userapi/user-cart/user-id/698072a22adbbec744889324/product-id/69806f3f510d6fbbe407a6d2
+
+###
+
+GET http://localhost:3000/userapi/users/698072a22adbbec744889324
