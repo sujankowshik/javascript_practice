@@ -2,6 +2,12 @@ import exp from'express'
 import { productmodel } from '../modules/productmodule.js'
 export const productapp=exp.Router()
 
+// get all products
+productApp.get('/products',async(req,res)=>{
+    let products=await Product.find()
+    res.status(200).json({message:'Products fetched',payload:products})
+})
+
 // add products
 productapp.post('/product',async(req,res)=>{
     let newproduct=req.body
