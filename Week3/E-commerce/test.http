@@ -1,3 +1,5 @@
+GET http://localhost:3000/products-api/products
+###
 POST http://localhost:3000/productapi/product
 Content-Type: application/json
 
