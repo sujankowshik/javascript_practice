@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+  }
+  
+  header{
+    border-bottom: 1px solid #999;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
