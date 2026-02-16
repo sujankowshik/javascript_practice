@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dcdcc8;
+    margin: 40px;
+    width: 50%;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+footer{
+  border-top: 1px solid #999;
+  margin-top: 20px;
+  padding-top: 10px;
+}
