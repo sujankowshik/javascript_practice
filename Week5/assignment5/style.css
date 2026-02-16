@@ -1,0 +1,9 @@
+div {
+    display: flex;       
+    gap: 15px;           
+}
+
+div img {
+    width: 300px;         
+    height: auto;         
+}
